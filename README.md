@@ -1,8 +1,5 @@
 # react-native-multi-selectbox
 
-[![npm version](https://badge.fury.io/js/react-native-multi-selectbox.svg)](https://badge.fury.io/js/react-native-multi-selectbox)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-multi-selectbox.svg?style=flat-square)](https://www.npmjs.com/package/react-native-multi-selectbox)
-
 Platform independent (Android / iOS) Selectbox | Picker | Multi-select | Multi-picker. The idea is to bring out the common user-interface & user-experience on both platforms.
 
 ![demo](https://raw.githubusercontent.com/sauzy34/react-native-multi-selectbox/master/demo.gif)
@@ -11,11 +8,11 @@ Platform independent (Android / iOS) Selectbox | Picker | Multi-select | Multi-p
 
 ### How to install 🎹
 
-### `npm install react-native-multi-selectbox`
+### `npm install git+https://github.com/TClarke-AppDev/react-native-multi-selectbox-additions`
 
 or
 
-### `yarn add react-native-multi-selectbox`
+### `yarn add git+https://github.com/TClarke-AppDev/react-native-multi-selectbox-additions`
 
 ### Usage 𖣠
 
@@ -156,15 +153,10 @@ multiSelectInputFieldProps         | object |                                   
 | searchIconColor         | color string |                                                                                                                                                        Default primary color |
 | toggleIconColor         | color string |                                                                                                                                                        Default primary color |
 | options                   |    array     | `[{ item: 'Juventus', id: 'JUVE'},{ item: 'Real Madrid', id: 'RM'},{ item: 'Barcelona', id: 'BR'},{ item: 'PSG', id: 'PSG'},{ item: 'FC Bayern Munich', id: 'FBM'}]` |
-
-## Want to be a contributor? 👷🏼‍♂️👷🏼‍♀️
-
-Check-in `develop` branch and submit a new pull-request
-
-## Issues or feature request? ✍🏼
-
-You can submit a request on https://github.com/sauzy34/react-native-multi-selectbox/issues
+| onExpand | callback | Returns if the flatlist is visible or hidden on open/close |
 
 ## Support & Share 💆🏼‍♂️
 
-Please star the repository on Github to enhance the reach to more developers.
+Original Source: [Repo](https://github.com/sauzy34/react-native-multi-selectbox)
+
+Please star that repository on Github to enhance the reach to more developers and give support to the original creator.
